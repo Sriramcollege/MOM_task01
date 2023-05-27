@@ -6,15 +6,16 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=0.6">
+     <!-- <meta name="viewport" content="width=device-width, initial-scale=0.6"> -->
+     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
     <meta name="description" content="Shopping website for mens">
     <meta name="keywords" content="city,e-commerce,men-wear">
     <meta name="author" content="Sriram kalai">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="style.css" as="style">
     </head>
     <body>
         <div class="Hero">  
@@ -46,126 +47,143 @@
             </div>
         </div>
         <div class="first-container">
-        <div class="size-margin-parent">
-            <div class="size-margin">
-                <div class="jacket-sunglass">
-                    <div class="sunglass-content">
-                        <img class="sunglass-img" src="Images/sunglass_500-325.png" alt="Sunglass-image">   
-                        <div class="text-Sunglass">SUNGLASSES</div>
-                        <img class="sunglass-shopbutton" src="Images/Shop now btn.svg" alt="shopnow_button">
-                        <div class="text-shop">Shop now</div>                 
+            <div class="size-margin-parent">
+                <div class="size-margin">
+                    <div class="jacket-sunglass">
+                        <div class="sunglass-content">
+                            <img class="sunglass-img" src="Images/sunglass_500-325.png" alt="Sunglass-image">   
+                            <div class="text-Sunglass">SUNGLASSES</div>
+                                <button class="sec_button">                                    
+                                    <img class="button-img-2" src="Images/right arrow.svg" alt="Shop-more">
+                                    <div class="text-shop">Shop now</div> 
+                                </button>   
+                        </div>
+                        <div class="jacket-content">
+                            <img class="jacket-img" src="Images/jacket-500-325.png" alt="Jacket-image">
+                            <div class="text-jacket">JACKETS</div>  
+                            <button class="third_button">                  
+                                <img class="button-img-3" src="Images/right arrow.svg" alt="shopnow_button">    
+                                <div class="text-shop-1">Shop now</div>   
+                            </button>            
+                        </div>
                     </div>
-                    <div class="jacket-content">
-                        <img class="jacket-img" src="Images/jacket-500-325.png" alt="Jacket-image">
-                        <div class="text-jacket">JACKETS</div>                     
-                        <img class="jacket-shopbutton" src="Images/Shop now btn.svg" alt="shopnow_button">    
-                        <div class="text-shop-1">Shop now</div>              
+                    <div class="jacket-sunglass_mobile">
+                        <div class="sunglass-content">
+                            <img class="sunglass-img" src="Images/sunglass_mobile.png" alt="Sunglass-image">   
+                            <div class="text-Sunglass">SUNGLASSES</div>
+                                <button class="sec_button">                                    
+                                    <img class="button-img-2" src="Images/right arrow.svg" alt="Shop-more">
+                                    <div class="text-shop">Shop now</div> 
+                                </button>   
+                        </div>
+                        <div class="jacket-content">
+                            <img class="jacket-img" src="Images/jacket_mobile.png" alt="Jacket-image">
+                            <div class="text-jacket">JACKETS</div>  
+                            <button class="third_button">                  
+                                <img class="button-img-3" src="Images/right arrow.svg" alt="shopnow_button">    
+                                <div class="text-shop-1">Shop now</div>   
+                            </button>            
+                        </div>
                     </div>
-                </div>
-                <div class="Featured-Products">Featured Products</div>
+                    <div class="Featured-Products">Featured Products</div>
+                        <div class="line-flex">
+                            <hr class="Line">
+                        </div>
+                    <div class="Products-margin">
+                        <div class="Products">
+                            <div class="card" id="card1">
+                                <img src="Images/bag.png" class="img-product-1" alt="Bag Image">
+                                <p class="Bag-7000"><span class="text-style-1">Bag</span>$70.00</p>
+                            </div>
+                            <div class="card" id="card2">
+                                <img src="Images/coat.png" class="img-product-2" alt="jacket Image">
+                                <div class="Bag-7000-2"><span lang="en" class="text-style-3">Jacket</span>$60.00</div>
+                            </div>
+                            <div class="card" id="card3">
+                                <img src="Images/sweater.png" class="img-product-3" alt="Sweater Image">
+                                <p lang="en" class="Bag-7000-1"><span lang="en" class="text-style-2">Sweater</span>$40.00</p>                                     
+                            </div>
+                        </div> 
+                        <div class="Product-Parent">
+                            <div class="Products-des">
+                                <div class="card" id="card1">
+                                    <img src="Images/bag.png" class="img-product-1">
+                                    <p class="Bag-7000"><span class="text-style-1">Bag</span>$70.00</p>
+                                </div>
+                                <div class="Product-col">
+                                    <div class="card" id="card2">
+                                        <img src="Images/coat.png" class="img-product-2">
+                                        <div class="Bag-7000-2"><span class="text-style-3">Jacket</span>$60.00</div>
+                                    </div>
+                                    <div class="card" id="card3">
+                                        <img src="Images/sweater.png" class="img-product-3">
+                                        <p class="Bag-7000-1"><span class="text-style-2">Sweater</span>$40.00</p>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                     
+            </div>
+        </div>            
+        <div class="footer">
+            <div class="footer-margin-parent">
+                <div class="footer-margin">
+                    <div class="contact-detail">
+                        <div class="sologun">
+                            <span class="We-love-speaking-to">
+                                We love speaking to our customers, got a questions?
+                            </span>
+                        </div>     
+                        <div class="email-detail">
+                            <div class="email">
+                                <span class="shopifypartners">@shopifypartners</span>
+                            </div>
+                            <div class="phone-number">
+                                <span class="mobile-number">1-800-555-1234</span>
+                            </div>
+                        </div> 
+                        <div class="insta-mobile">
+                            <span class="hellomyshopemailco">hello@myshopemail.com</span>
+                        </div>  
+                        <div class="email-detail-des">
+                            <div class="email">
+                                <span class="shopifypartners">@shopifypartners</span>
+                            </div>
+                            <div class="phone-number">
+                                <span class="mobile-number">1-800-555-1234</span>
+                            </div>
+                            <div class="insta">
+                                <span class="hellomyshopemailco">hello@myshopemail.com</span>
+                            </div>
+                        </div>                         
+                    </div>
                     <div class="line-flex">
                         <hr class="Line">
                     </div>
-                <div class="Products-margin">
-                    <div class="Products">
-                        <div class="card" id="card1">
-                            <img src="Images/bag.png" class="img-product-1" alt="Bag Image">
-                            <p class="Bag-7000"><span class="text-style-1">Bag</span>$70.00</p>
+                    <div class="footer-grid">
+                        <div class="footer-menu"> 
+                            <span class="Menu-1">Menu</span>   
+                            <span class="Women">Women</span>
+                            <span class="Men">Men</span>
+                            <span class="Accessories">Accessories</span>
+                            <span class="About">About</span>
                         </div>
-                        <div class="card" id="card2">
-                            <img src="Images/coat.png" class="img-product-2" alt="jacket Image">
-                            <div class="Bag-7000-2"><span lang="en" class="text-style-3">Jacket</span>$60.00</div>
+                        <div class="about-us-grid">
+                            <span class="About-Us">About Us</span>
+                            <p class="The-Shopify-Web-Desi">The Shopify Web Design and Development Blog provides design inspiration , development tips ,  and  business insights for anyone working as a freelancer or agency in the web design space. Our blog gives you the resources and tools you need to push creative boundaries and challenge the status quo when approaching each and every web design project.</p>
+                            <p class="The-Shopify-Web-Desi-1">Subscribe to our email newsletter for regular updates featuring new articles, free resources, and innovative examples of websites that are doing something right.</p>
                         </div>
-                        <div class="card" id="card3">
-                            <img src="Images/sweater.png" class="img-product-3" alt="Sweater Image">
-                            <p lang="en" class="Bag-7000-1"><span lang="en" class="text-style-2">Sweater</span>$40.00</p>                                     
-                        </div>
-                    </div> 
-                    <div class="Product-Parent">
-                        <div class="Products-des">
-                            <div class="card" id="card1">
-                                <img src="Images/bag.png" class="img-product-1">
-                                <p class="Bag-7000"><span class="text-style-1">Bag</span>$70.00</p>
-                            </div>
-                            <div class="Product-col">
-                                <div class="card" id="card2">
-                                    <img src="Images/coat.png" class="img-product-2">
-                                    <div class="Bag-7000-2"><span class="text-style-3">Jacket</span>$60.00</div>
-                                </div>
-                                <div class="card" id="card3">
-                                    <img src="Images/sweater.png" class="img-product-3">
-                                    <p class="Bag-7000-1"><span class="text-style-2">Sweater</span>$40.00</p>                                    
-                                </div>
-                            </div>
+                        <div class="social-media">
+                            <img src="Images/Facebook.svg" class="face" alt="facebook_logo">
+                            <img src="Images/Instagram.svg" class="instagram" alt="Instagram_logo">
+                            <img src="Images/Twitter.svg" class="twitter" alt="Twitter_logo">
                         </div>
                     </div>
+                    <hr class="Line-Copy-6"></hr>
+                    <span class="Powered-by-Shopify">Powered by Shopify</span>
                 </div>
-            </div>                     
-        </div>
-        </div>                     
-
-        
-        
-                <div class="footer">
-                    <div class="footer-margin-parent">
-                        <div class="footer-margin">
-                            <div class="contact-detail">
-                                <div class="sologun">
-                                    <span class="We-love-speaking-to">
-                                        We love speaking to our customers, got a questions?
-                                    </span>
-                                </div>     
-                                <div class="email-detail">
-                                    <div class="email">
-                                        <span class="shopifypartners">@shopifypartners</span>
-                                    </div>
-                                    <div class="phone-number">
-                                        <span class="mobile-number">1-800-555-1234</span>
-                                    </div>
-                                </div> 
-                                <div class="insta-mobile">
-                                    <span class="hellomyshopemailco">hello@myshopemail.com</span>
-                                </div>  
-                                <div class="email-detail-des">
-                                    <div class="email">
-                                        <span class="shopifypartners">@shopifypartners</span>
-                                    </div>
-                                    <div class="phone-number">
-                                        <span class="mobile-number">1-800-555-1234</span>
-                                    </div>
-                                    <div class="insta">
-                                        <span class="hellomyshopemailco">hello@myshopemail.com</span>
-                                    </div>
-                                </div>                         
-                            </div>
-                            <div class="line-flex">
-                                <hr class="Line">
-                            </div>
-                            <!-- <hr class="footer-line"> -->
-                            <div class="footer-grid">
-                                <div class="footer-menu"> 
-                                    <span class="Menu-1">Menu</span>   
-                                    <span class="Women">Women</span>
-                                    <span class="Men">Men</span>
-                                    <span class="Accessories">Accessories</span>
-                                    <span class="About">About</span>
-                                </div>
-                                <div class="about-us-grid">
-                                    <span class="About-Us">About Us</span>
-                                    <p class="The-Shopify-Web-Desi">The Shopify Web Design and Development Blog provides design inspiration , development tips ,  and  business insights for anyone working as a freelancer or agency in the web design space. Our blog gives you the resources and tools you need to push creative boundaries and challenge the status quo when approaching each and every web design project.</p>
-                                    <p class="The-Shopify-Web-Desi-1">Subscribe to our email newsletter for regular updates featuring new articles, free resources, and innovative examples of websites that are doing something right.</p>
-                                </div>
-                                <div class="social-media">
-                                    <img src="Images/Facebook.svg" class="face" alt="facebook_logo">
-                                    <img src="Images/Instagram.svg" class="instagram" alt="Instagram_logo">
-                                    <img src="Images/Twitter.svg" class="twitter" alt="Twitter_logo">
-                                </div>
-                            </div>
-                            <hr class="Line-Copy-6"></hr>
-                            <span class="Powered-by-Shopify">Powered by Shopify</span>
-                        </div>
-                    </div>
-                </div>
-           
+            </div>
+        </div>           
     </body>
 </html>     

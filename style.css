@@ -1,11 +1,17 @@
 body{
     margin: 0;
-    /* background-color: black; */
 } 
 
 
 .Products-des{
     display: none;
+}
+
+.size-margin-parent{
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .email-detail-des{
@@ -100,17 +106,15 @@ body{
   }
 
   .second-content{
+    margin-top: -1%;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 
   .collection-here{
-    /* width: auto;
-    height: 10px; */
-    margin-top: -4%;
+    margin-top: -2%;
     margin-left: 2%;
-    /* margin: 240px 97px 9px 96px; */
     font-family: Helvetica;
     font-size: 50px;
     font-weight: bold;
@@ -133,12 +137,47 @@ body{
     width: auto;
     height: 190px;
     
+    
   }
+  .sec_button{
+    position:absolute; 
+    width: 400px;
+    height: 80px;
+    margin-top: 500px;
+    border: solid 4px #fff;
+    background-color: rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+  }
+  .button-img-2{
+    width: 110px;
+    height: 60px;
+    margin-top: 5px;
+    padding-left: 250px;
+  }
+
+  .button-img-3{
+    width: 110px;
+    height: 60px;
+    margin-top: 15px;
+    padding-left: 250px;
+  }
+
+  .third_button{
+    position:absolute; 
+    width: 400px;
+    height: 80px;
+    margin-top: 650px;
+    border: solid 4px #fff;
+    background-color: rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+  }
+
+
   .first_button{
     
     width: 550px;
     height: 100px;
-    /* padding-right: 120px; */
+   
     background-color: #000;
     border: solid 2px #fff;
   }
@@ -147,7 +186,6 @@ body{
     width: 80px;
     height: 60px;
     margin-top: 0px;
-    /* padding-right: 30px; */
     margin-left: 390px;
   }
 
@@ -164,15 +202,19 @@ body{
     text-align: center;
     color: #fff;
   }
-
- 
-.jacket-sunglass{
+.sunglass-button{
     display: flex;
     justify-content: center;
-    /* padding: 10px 0 0 0 ; */
+}
+ 
+.jacket-sunglass{
+    display: none;
+}
+.jacket-sunglass_mobile{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin-top: -7.5%;
-    /* flex-wrap: wrap; */
+    margin-top: -1.5%;
 }
 
 
@@ -210,11 +252,11 @@ body{
 }
 
 .text-jacket{
-    margin-top: 220px;
+    margin-top: 79px;
     display: flex;
     justify-content: center;
     position: absolute;
-    padding-top: 12%;
+    padding-top: 30%;
     font-family: Helvetica;
     font-size: 75px;
     font-weight: bold;
@@ -227,10 +269,7 @@ body{
 }
 .text-shop{
     display: flex;
-    position: absolute;
-    margin: 465px 80px 0 0px;
-    /* width: 98%; */
-    /* justify-content: center; */
+    margin: -70px 60px 0 40px;
     align-items: end;
     font-family: Helvetica;
     font-size: 45px;
@@ -239,7 +278,6 @@ body{
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    /* text-align: center; */
     color: #fff;
 }
 .sunglass-shopbutton{  
@@ -250,7 +288,7 @@ body{
 }
 
 .jacket-shopbutton{   
-    margin-top: 65%;
+    margin-top: 48%;
     width: 440px;
     height: 100px;
     position:absolute;
@@ -264,9 +302,8 @@ body{
 
  .jacket-img{
     position: relative;
-    /* object-fit: sc; */
     width:100%;
-    height: 875px;
+    height: 830px;
     border: 6px solid white;
     background-position:auto;
     background-size: cover;
@@ -275,8 +312,7 @@ body{
 
  .text-shop-1{
     position: absolute;
-    margin: 630px 90px 0 0px;
-    /* justify-content: center; */
+    margin: -70px 90px 0 40px;
     align-items: end;
     font-family: Helvetica;
     font-size: 45px;
@@ -362,17 +398,17 @@ body{
 }
 .img-product-1{
     width: 100%;
-    height: 750px;
+    height: 762px;
     margin: 48px 0 11px;
 }
 .img-product-2{
     width: 100%;
-    height: 760px;
+    height: 762px;
     margin: 48px 0 11px;
 }
 .img-product-3{
     width: 100%;
-    height: 760px;
+    height: 765px;
     margin: 48px 0 11px;
 }
 
@@ -481,10 +517,10 @@ body{
   }
 
 .footer{
-    width: 97%;
+    width: 100%;
     height: 100%;
     margin: 27% 0 0;
-    padding: 32px 18px 44px 19px;
+    /* padding: 32px 18px 44px 19px; */
     background-color: #f6f6f6;
 }
 
@@ -855,21 +891,21 @@ body{
     }
 
     .menu{
-        width:8px ;
-        height: 15px;  
+        width:9px ;
+        height: 17px;  
         padding-top: 1%;  
         padding-left: 30px;
     }
     
     .city{
-        width: 60;
-        height: 40px;
+        width: 70px;
+        height: 50px;
         
     }
     
     .cart{
-        width: 21px;
-        height: 18px;
+        width: 24px;
+        height: 21px;
         padding-top: 1%;
     }
      
@@ -883,12 +919,18 @@ body{
      }
 
 
-      .jacket-sunglass{       
+      .jacket-sunglass{ 
+        display: flex;
+        justify-content: center;
+        margin-top: -1.5%;      
         flex-direction: row;
         gap:10px;
         margin-top: -8%;
         padding-left: 10px;
     }     
+    .jacket-sunglass_mobile{
+        display: none;
+    }
     
     
      .sunglass-img{
@@ -899,7 +941,7 @@ body{
 
      .jacket-img{
         margin-top: -7%;
-        width:100%;
+        width:99%;
         height: 345px;    
         border: 0px;  
         object-fit: cover;
@@ -918,8 +960,8 @@ body{
     }
 
     .text-shop{
-        margin: 230px 45px 0 0px;
-        font-size:18px;
+        margin: -40px 45px 0 10px;
+        font-size:22px;
     }
 
     .text-jacket{
@@ -938,8 +980,8 @@ body{
     }
 
     .text-shop-1{        
-        margin: 190px 35px 0 0;        
-        font-size: 18px;   
+        margin: -36px 35px 0 15px;        
+        font-size: 22px;   
      }
 
      .Featured-Products{
@@ -1324,6 +1366,7 @@ body{
       }
 
       .first_button{
+        cursor: pointer;
         width: 280px;
         height: 50px;
         background-color: #000;
@@ -1342,14 +1385,15 @@ body{
         height: 25px;
         margin-top: 0px;
         padding-right: 0px;
-        margin-left: 220px;
+        margin-left: 200px;
       }
     
       .Shop-the-collection {    
-        margin: -13% 80px 0px 0px;
+        margin: -12% 80px 0px 0px;
         width: 200px;
-        padding-left: 15px;
+        padding-left: 0px;
         font-size: 18px;
+
       }
 
       .shop-button{
@@ -1360,9 +1404,56 @@ body{
       .first-container{
         display: flex;
         justify-content: center;
+
       }
 
+
+      .sec_button{
+        position:absolute; 
+        width: 205px;
+        height: 44px;
+        margin-top: 250px;
+      }
+      .button-img-2{
+        width: 50px;
+        height: 30px;
+        margin-top: 0px;
+        padding-left: 125px;
+      }
+
+
+      .button-img-3{
+        width: 50px;
+        height: 30px;
+        margin-top: 6px;
+        padding-left: 130px;
+      }
+    
+      .third_button{
+        position:absolute; 
+        width: 205px;
+        height: 44px;
+        margin-top: 215px;
+        border: solid 4px #fff;
+        background-color: rgba(0, 0, 0, 0.24);
+      }
       
 
    
+  }
+
+
+
+
+  @media only screen and (max-width: 1200px){
+
+    .size-margin{
+        margin-top:-40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 1050px;
+        
+    }
+    
   }
